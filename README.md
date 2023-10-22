@@ -64,6 +64,21 @@ python PCA.py
 ```
 
 4. Examine the graph on the screen to see the results.
+- Shows the variance explained by each component. The first component explains 92.46%, and the second     component explains 5.30% of the variance.
+```python
+print("Variance ratio:", pca.explained_variance_ratio_)  
+```
+  
+- Indicates that 97.76% of the variance is preserved, implying a successful PCA with a 2.24% data loss.
+```python
+print("Sum:", sum(pca.explained_variance_ratio_))  
+```
+  
+
+
+![image](https://github.com/Prometheussx/Iris-Data-PCA-Exploration/assets/54312783/cb6112ef-39be-420e-8ff7-b2b8b077284f)
+
+![image](https://github.com/Prometheussx/Iris-Data-PCA-Exploration/assets/54312783/3103cfd9-16e8-4224-bbdc-d8ec21cf2894)
 
 ## Contact Information
 

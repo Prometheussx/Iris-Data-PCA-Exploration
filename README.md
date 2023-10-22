@@ -1,4 +1,6 @@
 # Iris-Data-PCA-Exploration
+![dataset-cover](https://github.com/Prometheussx/Iris-Data-PCA-Exploration/assets/54312783/ca6dd4a3-493a-43bb-a383-9a6ca7e75d1c)
+
 This project is a demo that applies PCA (Principal Component Analysis) analysis on the Iris dataset using Python and the Scikit-learn library. PCA is utilized to reduce high-dimensional data to lower dimensions.
 
 # Using Iris Dataset and PCA
